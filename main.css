@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.dp-content {
+    margin: 100px 0;
+    padding: 30px;
+}
+
+.dp-content h1 {
+    color: #262626;
+}
+
+/* Global */
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
